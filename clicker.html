@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img{ height: 500px; width: 700px}
+
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  
+
+  <h1 id="score"> score=0</h1>
+</head>
+<body>
+  <img id="cookiemonster" src="//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6KgMO9zlPVmbvWc764PFxbNHToIFqK3hijZzHKJP8ah5Qq-A:https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/47427049-40f2-4e25-9ce7-dac4d90223b4/dfthri2-08a38871-a7e1-4721-aa2f-45334e0026da.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ3NDI3MDQ5LTQwZjItNGUyNS05Y2U3LWRhYzRkOTAyMjNiNFwvZGZ0aHJpMi0wOGEzODg3MS1hN2UxLTQ3MjEtYWEyZi00NTMzNGUwMDI2ZGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GBvDLV18ubo7_s4NF3rCFIbNddEFdAyCyCSBDY8hFzc&s">
+</body>
+</html>
+<script>
+  document.getElementById("cookiemonster").addEventListener("click",up)
+var score = 0
+
+function up(){
+  score = score + 1
+  document.getElementById("score").innerHTML=score 
+  concole.log(score)
+
+}
+</script>
